@@ -5,3 +5,8 @@
     top: 25px;
 }
 
+.card{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: linear-gradient(to top,rgba(0,0,255,0.6),rgba(255,0,0,0.6));  
+}
