@@ -1,46 +1,55 @@
 .LogoPika1{
     position: relative;
-    width: 250px;
-    height: 250px;
-    bottom: 280px;
-    right: 345px;
+    width: 180px;
+    height: 180px;
+    bottom: 229px;
+    right: 226px;
 }
 
 .LogoPika2{
     position: relative;
-    width: 250px;
-    height: 250px;
-    bottom: 280px;
-    left: 590px;
+    width: 180px;
+    height: 180px;
+    bottom: 230px;
+    left: 610px;
 }
 
 
 .InfoS{
     position: relative;
     width: 800px;
-    margin: 25px;
+    margin: 2px;
+    margin-bottom: 90px;
     padding: 30px;
-    left: 487px;
+    bottom: 18px;
+    left: 272px;
 }
 
 .InfoS h1{
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     color: #fff8e7;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
+    font-size: 40px;
 }
 
 .InfoS p{
+    padding: 10px;
     text-align: center;
     color: #fff8e7;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 22px;
+    font-family:'Lucida Sans','Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    background-color: rgba(155,146,146,0.7);
+    border: solid;
+    border-radius: 80px;
+    border-color: rgba(204,197,197,1);
+    border-top: 50px;
+    border-bottom: 50px;
 }
 
 .row{
     position: relative;
-    bottom: 260px;
+    bottom: 300px;
     margin: 0px !important;
 }
 
@@ -48,20 +57,21 @@
     position: relative;
     color: #fff8e7;
     text-align: center;
-    bottom: 290px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    bottom: 317px;
 }
 
 .card{
+    width: 200px!important;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-image: linear-gradient(to top,rgba(0,0,255,0.6),rgba(255,0,0,0.6));
-   
 }
 
 .card-img-top{
-    width: 180px !important;
-    height: 180px !important;
-    margin-top: 20px;
+    width: 80px !important;
+    height: 80px !important;
+    margin-top: 25px;
     position: relative;
-    left: 50px;
+    left: 58px;
 }
