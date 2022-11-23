@@ -1,5 +1,3 @@
-//Api Pokemon//
-
 const Pokemons = document.querySelector(".Pokemon-container");
 const Antes = document.querySelector(".Btn_Azul");
 const Despues = document.querySelector(".Btn_Rojo");
@@ -60,7 +58,7 @@ Despues.addEventListener("click",()=>{
      spriteContainer.appendChild(sprite);
 
      const number = document.createElement("p");
-     number.textContent = `ID: #${pokemon.id.toString().padStart(3,0)}`;
+     number.textContent = `ID: #${pokemon.id.toString()}`;
 
      const name = document.createElement("p");
      name.classList.add("name");
@@ -74,12 +72,34 @@ Despues.addEventListener("click",()=>{
      value.classList.add("value");
      value.textContent ="Precio: $"+10000;
 
+     const Left = document.createElement("i");
+     Left.classList.add("ILeft");
+     Left.classList.add("bi");
+     Left.classList.add("bi-caret-left-fill");
+     const Rigth = document.createElement("i");
+     Rigth.classList.add("IRigth");
+     Rigth.classList.add("bi");
+     Rigth.classList.add("bi-caret-right-fill");
+
+     const Contador = document.createElement("p")
+     Contador.classList.add("Contador");
+     Contador.textContent = 0 ;
+
+     const BtnCompra = document.createElement("i");
+     BtnCompra.classList.add("BtnCompra");
+     BtnCompra.classList.add("btn");
+     BtnCompra.classList.add("btn-primary");
+     BtnCompra.textContent ="Comprar!!";
+
      card.appendChild(spriteContainer);
      card.appendChild(number);
      card.appendChild(name);
      card.appendChild(type);
      card.appendChild(value);
-
+     card.appendChild(Left);
+     card.appendChild(Rigth);
+     card.appendChild(Contador);
+     card.appendChild(BtnCompra);
      Pokemons.appendChild(card);
 }
  
@@ -90,5 +110,3 @@ function removeChildNodes(parent){
 }
 
  fetchPokemons(offset,limit);
-
-//----------------------------//

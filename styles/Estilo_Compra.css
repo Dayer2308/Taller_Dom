@@ -1,9 +1,13 @@
+body{
+    height: -410;
+}
+
 .TituloPo{
     position: relative;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #fff8e7;
-    top: 25px;
+    top: 60px;
 }
 
 .Container{
@@ -12,7 +16,7 @@
     padding: 80px;
     margin: 5px;
     height: 740px;
-    bottom: 50px;
+    top: 25 px;
     right: 35px;
 }
 
@@ -64,12 +68,39 @@ p{
 .btn{
 
     position: relative;
-    bottom: 15px;
+    top: 120px;
     left: 545px;
     font-size: 20px;
 
 }
 
+.ILeft{
+    position: relative;
+    bottom: 135px;
+    font-size: 40px;
+}
 
+.IRigth{
+    position: relative;
+    bottom: 135px;
+    left: 77px;
+    font-size: 40px;
+}
 
+.Contador{
+    position: relative;
+    width: 60px;
+    bottom: 185px    ;
+    left: 42px;
+    border-radius: 10;
+}
 
+.BtnCompra{
+    position: relative;
+    left: 225px; 
+    top: -225px;
+    font-size: 15px;
+    border: solid;
+    border-radius: 80cm;
+    border-color: blue;
+}
