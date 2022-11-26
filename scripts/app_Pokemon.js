@@ -1,8 +1,11 @@
 const Pokemons = document.querySelector(".Pokemon-container");
 const Antes = document.querySelector(".Btn_Azul");
 const Despues = document.querySelector(".Btn_Rojo");
+const BtnGuardar = document.querySelector(".BtnCompra");
+let Pokemon = {};
 let offset = 1;
 let limit = 9;
+let PokemonNuevo = JSON.parse(localStorage.getItem("PokemonRegistradosLS")) || [];
 
 Antes.addEventListener("click",()=>{
     if(offset != 1){
@@ -25,17 +28,13 @@ Despues.addEventListener("click",()=>{
      .then(res => res.json())
      .then(data => 
          {CrearPokemons(data);
-
-            const Pokemon ={
+            Pokemon = {
                 IMAGEN: data.sprites.front_default,
                 ID: data.id,
                 NOMBRE: data.name,
-                TIPO: data.pokemon.types[0].type.name,
+                TIPO: data.types[0].type.name,
                 PRECIO: 10000
-            }
-            console.log(Pokemon);
-
-     });
+            }});
  }
 
  function fetchPokemons(offset,limit){
@@ -84,12 +83,14 @@ Despues.addEventListener("click",()=>{
      const Contador = document.createElement("p")
      Contador.classList.add("Contador");
      Contador.textContent = 0 ;
+     
 
-     const BtnCompra = document.createElement("i");
+     const BtnCompra = document.createElement("button");
      BtnCompra.classList.add("BtnCompra");
      BtnCompra.classList.add("btn");
      BtnCompra.classList.add("btn-primary");
-     BtnCompra.textContent ="CARRITO";
+     BtnCompra.textContent ="AGREGAR";
+     
 
      card.appendChild(spriteContainer);
      card.appendChild(number);
@@ -109,4 +110,10 @@ function removeChildNodes(parent){
      }
 }
 
- fetchPokemons(offset,limit);
+fetchPokemons(offset,limit);
+
+BtnGuardar.addEventListener("click", () =>{
+    console.log(Pokemon);
+	PokemonNuevo.push(Pokemon);
+	localStorage.setItem("PokemonRegistradosLS", JSON.stringify(PokemonNuevo));
+})

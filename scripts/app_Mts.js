@@ -13,9 +13,9 @@ const PintarCard = data =>{
     const TemplateMTS = document.getElementById("template-Mts").content;
     data.forEach(item =>{
         TemplateMTS.querySelector("h5").textContent = item.Nombre;
-        TemplateMTS.querySelector("p1").textContent = item.Id;
+        TemplateMTS.querySelector("p1").textContent = "ID:"+item.Id;
         TemplateMTS.querySelector("p2").textContent = item.Descripcion;
-        TemplateMTS.querySelector("p3").textContent = item.Precio;
+        TemplateMTS.querySelector("p3").textContent = "Precio: $"+item.Precio;
         TemplateMTS.querySelector("img").setAttribute("src",item.Imagen);
         TemplateMTS.querySelector("button").dataset.id=item.Id
         const clone = TemplateMTS.cloneNode(true);
