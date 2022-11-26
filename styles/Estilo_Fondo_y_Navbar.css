@@ -8,7 +8,7 @@
 body{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(to top, rgba(16,16,98,0.729) 0%, rgba(65,9,9,0.805)100%),url(/image/PokeShop.jpg);
+    background-image: linear-gradient(to top, rgba(16,16,98,0.729) 0%, rgba(65,9,9,0.805)100%),url("/image/PokeShop.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
