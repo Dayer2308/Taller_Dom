@@ -3,42 +3,42 @@
         "Imagen":"https://www.pokemonalpha.xyz/wp-content/uploads/2016/06/Pok%C3%A9-Ball.png",
         "Id": 1,        
         "Nombre":"Pokeball",
-        "Descripcion":"Poké Ball, también conocida abreviadamente como ball, es un artilugio u objeto diseñado para servir dos funciones básicas en el mundo Pokémon, almacenar y transportar Pokémon, haciendo posible la captura de Pokémon.",
+        "Descripcion":"Poké Ball, diseñado para servir para almacenar y transportar Pokémon.",
         "Precio":5000
     },
     {
         "Imagen":"https://www.pokemonalpha.xyz/wp-content/uploads/2016/06/Super-Ball.png",
         "Id": 2,        
         "Nombre":"Super ball",
-        "Descripcion":"La Super Ball es un tipo de Poké Ball introducido en la primera generación. Tiene más índice de éxito que la Poké Ball, pero menos que la Ultra Ball. Por ende, es la intermedia en el uso general.",
+        "Descripcion":"La SuperBall tiene más índice de éxito que la Poké Ball, pero menos que la Ultra Ball.",
         "Precio":10000
     },
     {
         "Imagen":"https://www.pokemonalpha.xyz/wp-content/uploads/2016/06/Ultra-Ball.png",
         "Id": 3,        
         "Nombre":"Ultra ball",
-        "Descripcion":"La Ultra Ball es un tipo de Poké Ball introducido en la primera generación. Tiene más índice de éxito que la Super Ball. Por ende, es la más eficaz en el uso general.",
+        "Descripcion":"La Ultra Ball es un tipo de Poké Ball. Tiene más índice de éxito que la Super Ball.",
         "Precio":15000
     },
     {
         "Imagen":"https://www.pokemonalpha.xyz/wp-content/uploads/2016/06/Turno-Ball.png",
         "Id": 4,        
         "Nombre":"Turno ball",
-        "Descripcion":"La Turno Ball es un tipo de Poké Ball introducido en la tercera generación. Aumenta su eficacia cuanto más dura el combate.",
+        "Descripcion":"La Turno Ball. Aumenta su eficacia cuanto más dura el combate.",
         "Precio":18000
     },
     {
         "Imagen":"https://images.wikidexcdn.net/mwuploads/wikidex/8/8b/latest/20090125151215/Sana_Ball_%28Ilustraci%C3%B3n%29.png",
         "Id": 5,        
         "Nombre":"Sana ball",
-        "Descripcion":"La Sana Ball es un tipo de Poké Ball introducido en la cuarta generación. Su función principal, es la de curar completamente al Pokémon una vez capturado, lo cual, solo podrá apreciarse si éste permanece en el equipo, ya que si es enviado a una caja de la PC, será curado de manera automática, independientemente de la Poké Ball con la que haya sido atrapado.",
+        "Descripcion":"La Sana Ball. Su función principal curar completo al Pokémon una vez capturado.",
         "Precio":18000
     },
     {
         "Imagen":"https://www.pokemonalpha.xyz/wp-content/uploads/2016/06/Master-Ball.png",
         "Id": 6,        
         "Nombre":"Master ball",
-        "Descripcion":"La Master ball, es la Pokéball infalible, introducida en la Primera generación. Su radio de captura hace que absolutamente 255 ningún Pokémon pueda escapar de ella. Se suele utilizar con Pokémon Legendarios, difíciles de atrapar o con Pokémon shinies. Tambien se usa mucho con los Pokémon legendarios que huyen, tales como Mesprit, Cresselia, Raikou etc.",
+        "Descripcion":"La Master ball, es la Pokéball infalible, se suele utilizar con Pokémon Legendarioss",
         "Precio":1000000
     }
 ]

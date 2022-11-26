@@ -13,9 +13,9 @@ const PintarCard = data =>{
     const TemplatePociones = document.getElementById("template-Pociones").content;
     data.forEach(item =>{
         TemplatePociones.querySelector("h5").textContent = item.Nombre;
-        TemplatePociones.querySelectorAll("p").textContent = item.Id;
-        TemplatePociones.querySelector("p").textContent = item.Descripcion;
-        TemplatePociones.querySelector("p").textContent = item.Precio;
+        TemplatePociones.querySelector("p1").textContent = "ID: "+item.Id;
+        TemplatePociones.querySelector("p2").textContent = item.Descripcion;
+        TemplatePociones.querySelector("p3").textContent = "Precio:$"+item.Precio;
         TemplatePociones.querySelector("img").setAttribute("src",item.Imagen);
         TemplatePociones.querySelector("button").dataset.id=item.Id
         const clone = TemplatePociones.cloneNode(true);

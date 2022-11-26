@@ -1,16 +1,11 @@
 .container{
     position: relative;
-    width: 1200px;
-    padding: 40px;
-    top: 30px;
-}
-
-.row{
-    width: 200x;
-    height: 200px;
+    top: 40px;
 }
 
 .card{
+    width: 365px;
+    height: 220px;
     background-image: linear-gradient(to top,rgba(247,62,62,1),#fff8e7 100px,rgba(0,0,255,1));
     border: outset;
     border-radius: 20px;
@@ -20,13 +15,8 @@ img{
     position: relative;
     width: 200px !important;
     height: 100px !important;
-    top: 45px;
-    left: 20px;
-}
-
-p{
-    position: relative;
-    text-align: center;
+    top: 35px;
+    left: 10px;
 }
 
 h1{
@@ -34,11 +24,87 @@ h1{
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #fff8e7;
-    top: 34px;
+    top: 25px;
     text-shadow:1px 1px 2px black;
 }
 
 h5{
     position: relative;
     text-align: center;
+    font-weight: bold;
+    color: #fff8e7;
+    text-shadow:1px 1px 2px red;
+}
+
+.PId{
+    font-size: 15px;
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: black;
+    background-color: rgba(155,146,146,0.7);
+    border: solid;
+    border-radius: 20px;
+    border-color: rgba(204,197,197,1);
+}
+
+.PDes{
+    font-size: 14px;
+    text-align: left;
+    margin-top: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: black;
+    background-color: rgba(155,146,146,0.7);
+    border: solid;
+    border-radius: 20px;
+    border-color: rgba(204,197,197,1);
+}  
+
+.PPre{
+    font-size: 15px;
+    text-align: left;
+    margin-top: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: black;
+    background-color: rgba(155,146,146,0.7);
+    border: solid;
+    border-radius: 20px;
+    border-color: rgba(204,197,197,1);
+}
+
+.LadoI{
+    position: relative;
+    bottom: 53.3px;
+    right: 100px;
+    margin: 0px;
+    font-size: 25px;
+}
+
+.LadoD{
+    position: relative;
+    bottom: 115px;
+    right: 50px;
+    margin: 0px;
+    font-size: 25px;
+}
+
+button{
+    position: relative;
+    bottom: 84px;
+    right:125px;
+    margin: 0px;
+    font-size: 10px !important;
+    border: solid !important;
+    border-radius: 80px !important;
+    border-color: blue !important;
+}
+
+.Contador{
+    position: relative;
+    bottom: 83px;
+    right: 67px;
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }

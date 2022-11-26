@@ -13,9 +13,9 @@ const PintarCard = data =>{
     const TemplatePokeballs = document.getElementById("template-Pokeballs").content;
     data.forEach(item =>{
         TemplatePokeballs.querySelector("h5").textContent = item.Nombre;
-        TemplatePokeballs.querySelectorAll("p").textContent = item.Id;
-        TemplatePokeballs.querySelector("p").textContent = item.Descripcion;
-        TemplatePokeballs.querySelector("p").textContent = item.Precio;
+        TemplatePokeballs.querySelector("p1").textContent = "ID: "+item.Id;
+        TemplatePokeballs.querySelector("p2").textContent = item.Descripcion;
+        TemplatePokeballs.querySelector("p3").textContent = "Precio: $"+item.Precio;
         TemplatePokeballs.querySelector("img").setAttribute("src",item.Imagen);
         TemplatePokeballs.querySelector("button").dataset.id=item.Id
         const clone = TemplatePokeballs.cloneNode(true);

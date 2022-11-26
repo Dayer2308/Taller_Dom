@@ -89,7 +89,7 @@ Despues.addEventListener("click",()=>{
      BtnCompra.classList.add("BtnCompra");
      BtnCompra.classList.add("btn");
      BtnCompra.classList.add("btn-primary");
-     BtnCompra.textContent ="COMPRAR    ";
+     BtnCompra.textContent ="CARRITO";
 
      card.appendChild(spriteContainer);
      card.appendChild(number);
