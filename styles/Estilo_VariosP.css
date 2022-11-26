@@ -1,0 +1,44 @@
+.container{
+    position: relative;
+    width: 1200px;
+    padding: 40px;
+    top: 30px;
+}
+
+.row{
+    width: 200x;
+    height: 200px;
+}
+
+.card{
+    background-image: linear-gradient(to top,rgba(247,62,62,1),#fff8e7 100px,rgba(0,0,255,1));
+    border: outset;
+    border-radius: 20px;
+}
+
+img{
+    position: relative;
+    width: 200px !important;
+    height: 100px !important;
+    top: 45px;
+    left: 20px;
+}
+
+p{
+    position: relative;
+    text-align: center;
+}
+
+h1{
+    position: relative;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff8e7;
+    top: 34px;
+    text-shadow:1px 1px 2px black;
+}
+
+h5{
+    position: relative;
+    text-align: center;
+}

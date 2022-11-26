@@ -62,11 +62,11 @@ Despues.addEventListener("click",()=>{
 
      const name = document.createElement("p");
      name.classList.add("name");
-     name.textContent = "Nombre: "+pokemon.name;
+     name.textContent =pokemon.name;
      
      const type = document.createElement("p");
      type.classList.add("type");
-     type.textContent = "Tipo: "+pokemon.types[0].type.name;
+     type.textContent = pokemon.types[0].type.name;
 
      const value = document.createElement("p");
      value.classList.add("value");
@@ -89,7 +89,7 @@ Despues.addEventListener("click",()=>{
      BtnCompra.classList.add("BtnCompra");
      BtnCompra.classList.add("btn");
      BtnCompra.classList.add("btn-primary");
-     BtnCompra.textContent ="Comprar!!";
+     BtnCompra.textContent ="COMPRAR    ";
 
      card.appendChild(spriteContainer);
      card.appendChild(number);

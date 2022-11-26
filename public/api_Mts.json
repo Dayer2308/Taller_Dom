@@ -1,0 +1,44 @@
+[    
+    {
+        "Imagen":"https://findicons.com/files/icons/1681/siena/256/cd_green.png ",
+        "Id": 1,        
+        "Nombre":"Rayo solar",
+        "Descripcion":"Es un movimiento de tipo planta introducido en la primera generación.",
+        "Precio":30000
+    },
+    {
+        "Imagen":"https://findicons.com/files/icons/118/radium_neue/256/cd.png",
+        "Id": 2,        
+        "Nombre":"Rapidez",
+        "Descripcion":"Es un movimiento de tipo normal introducido en la primera generación.",
+        "Precio":15000
+    },
+    {
+        "Imagen":"https://cdn.pixabay.com/photo/2012/04/26/19/04/cd-42872_960_720.png",
+        "Id": 3,        
+        "Nombre":"Avalancha",
+        "Descripcion":"Es un movimiento de tipo roca introducido en la primera generación.",
+        "Precio":20000
+    },
+    {
+        "Imagen":"https://findicons.com/files/icons/1681/siena/256/cd_yellow.png",
+        "Id": 4,        
+        "Nombre":"Rayo",
+        "Descripcion":"Es un movimiento de tipo eléctrico introducido en la primera generación.",
+        "Precio":25000
+    },
+    {
+        "Imagen":"https://www.shareicon.net/data/2015/04/12/21743_cd_256x256.png",
+        "Id": 5,        
+        "Nombre":"Rayo burbuja",
+        "Descripcion":"Es un movimiento de tipo agua introducido en la primera generación.",
+        "Precio":20000
+    },
+    {
+        "Imagen":"https://png.pngtree.com/png-vector/20220712/ourmid/pngtree-aesthetic-dvd-or-cd-disk-png-image_5888606.png",
+        "Id": 6,        
+        "Nombre":"Psíquico",
+        "Descripcion":"Es un movimiento de tipo psíquico introducido en la primera generación.",
+        "Precio":30000
+    }
+]

@@ -1,35 +1,42 @@
 [
     {
-        "Imagen":"https://i1.sndcdn.com/artworks-000110722727-7byfgr-t500x500.jpg",
+        "Imagen":"https://img.gamewith.jp/img/86f3a9fbcdc5c9a72df0a4224a1e2ec2.png",
         "Id": 1,        
         "Nombre":"Poción",
         "Descripcion":"Una poción es una clase de objeto introducido en la primera generación. Las pociones son objetos curativos que restauran los puntos de salud (PS) de los Pokémon.",
         "Precio":5000
     },
     {
-        "Imagen":"https://www.nicepng.com/png/full/551-5513582_super-potion-pokemon-potion.png",
+        "Imagen":"https://img.gamewith.jp/img/5577f89202674cd8acb45abac00e8058.png",
         "Id": 2,
-        "Nombre":"SuperPoción",
+        "Nombre":"Super poción",
         "Descripcion":"La superpoción es un objeto curativo introducido en la primera generación que se trata de un tipo de poción más efectivo que el anterior, la poción común.",
         "Precio":10000
     },
     {
-        "Imagen":"https://png.pngitem.com/pimgs/s/604-6046511_hyper-potion-pixel-art-minecraft-yoshi-hd-png.png",
+        "Imagen":"https://img.gamewith.jp/img/adb74f9c20234a92b9d4d94c3d129a06.png",
         "Id": 3,
-        "Nombre":"HiperPoción",
+        "Nombre":"Hiper poción",
         "Descripcion":"La hiperpoción es un objeto curativo introducido en la primera generación que se trata de un tipo de poción bastante avanzado, y cuatro veces más efectivo que el anterior, la superpoción, aunque cuesta un poco menos que el doble.",
         "Precio":15000
     },
     {
-        "Imagen":"https://cdn.atomix.vg/wp-content/uploads/2016/02/pokemon-revive-2.png",
+        "Imagen":"https://e-lexia.com/pokemon-go/img/objeto-pocion-maxima-pokemon-go.png",
         "Id": 4,
+        "Nombre":"Máxima poción",
+        "Descripcion":"a poción máxima, llamada máxima poción durante la serie Negro y Blanco, es una carta es una carta Pokémon de entrenador de clase objeto.",
+        "Precio":20000
+    },
+    {
+        "Imagen":"https://cdn.atomix.vg/wp-content/uploads/2016/02/pokemon-revive-2.png",
+        "Id": 5,
         "Nombre":"Revivir",
         "Descripcion":"Revivir es un objeto curativo introducido en la primera generación que revive a un Pokémon que esté debilitado y recupera la mitad del total de sus puntos de salud, a diferencia de máximo revivir, que recupera el 100% de los PS del Pokémon.",
         "Precio":10000
     },
     {
         "Imagen":"https://1.bp.blogspot.com/-Hz8sIf0g7cY/VsyVIWiLsnI/AAAAAAAAnII/DjW20xLr0R4/s1600/max_revive_by_peetzaahhh2010-d8oki1o.png",
-        "Id": 5,
+        "Id": 6,
         "Nombre":"Máximo Revivir",
         "Descripcion":"El revivir máximo es un objeto curativo introducido en la primera generación que revive a un Pokémon que esté debilitado y recupera todos sus puntos de salud, a diferencia de revivir, que sólo recupera el 50% de los PS del Pokémon.",
         "Precio":20000

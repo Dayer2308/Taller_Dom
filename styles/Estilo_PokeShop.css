@@ -28,6 +28,7 @@
 .InfoS h1{
     text-align: center;
     margin-bottom: 10px;
+    text-shadow:1px 1px 2px black;
     color: #fff8e7;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 40px;
@@ -58,6 +59,7 @@
     color: #fff8e7;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow:1px 1px 2px black;
     bottom: 317px;
 }
 

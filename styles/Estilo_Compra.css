@@ -6,6 +6,7 @@ body{
     position: relative;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow:1px 1px 2px black;
     color: #fff8e7;
     top: 60px;
 }
@@ -100,6 +101,7 @@ p{
     left: 225px; 
     top: -225px;
     font-size: 15px;
+    font-style: normal;
     border: solid;
     border-radius: 80cm;
     border-color: blue;
